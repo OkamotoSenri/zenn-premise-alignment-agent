@@ -164,7 +164,7 @@ PAAの最も重要な設計原則は、**AIエージェントにアプリケー�
 ### 2. V-netなしでAzure FunctionsからのみCosmosDBへのアクセスを許可
 
 仮想ネットワーク（V-net）を使わず、Managed Identity + Cosmos DB のRBAC（ロールベースアクセス制御）でAzure Functionsからのみ接続を許可する構成にしています。これにより、Cosmos DBの接続文字列やパスワードをコードに持たずに済みます。
-V-net構成はコストと運用コストが高くなるため、Managed Identityによるロールベースのアクセス制御でCosmosDBへのアクセスをシンプルに制限しています。
+V-net構成は運用コストが高くなるため、Managed Identityによるロールベースのアクセス制御でCosmosDBへのアクセスをシンプルに制限しています。
 
 ### 3. Azure FunctionsへのアクセスをEasy Authで制限
 
