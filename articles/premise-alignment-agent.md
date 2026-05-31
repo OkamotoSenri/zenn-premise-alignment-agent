@@ -3,7 +3,7 @@ title: "AIが「速さ」を与えた代わりに失われたもの——Premise
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ai", "azure", "claudecode", "agentSDK", "githubactions"]
-published: true
+published: false
 ---
 
 ## はじめに：AI導入で増えたマネジメントコスト
